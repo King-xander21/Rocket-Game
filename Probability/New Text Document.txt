@@ -1,0 +1,38 @@
+This 
+
+/*
+		if (rock[0].getRockStatus() == true && rock[1].getRockStatus() == true)
+		{
+			srand((int)time(0));
+			float speed = (rand() % 500) + 500;
+			rock[0].setSpeed(speed);
+			rock[1].setSpeed(speed);
+
+			// Declaring the y_axis position of the rocks
+			srand((int)time(0) * 10);
+			float hieght = (rand() % 350) + 100;
+			rock[0].setPosition(x_pos, hieght);
+			rock[1].setPosition(x_pos + 100, hieght);
+
+			for (i = 0; i < 2; i++)
+			{
+				rock[i].moveLeft();
+				cout << " Rock Status: " << rock[i].getRockStatus() << "\n";
+			}
+		}
+		else if (rock[0].getRockStatus() == false && rock[1].getRockStatus() == false)
+		{
+			for (int i = 0; i < 2; i++)
+			{
+				Time dt = clock.restart();
+				rock[i].update(dt);
+			}
+
+			if (rock[0].getRockPos_x() < 0 && rock[1].getRockPos_x() < 0)
+			{
+				for (i = 0; i < 2; i++)
+				{
+					rock[i].setRockStatus();
+				}
+			}
+		}*/

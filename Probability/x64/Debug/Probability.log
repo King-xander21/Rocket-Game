@@ -1,0 +1,3 @@
+﻿  Main.cpp
+C:\Users\USER\3D Objects\OPENCV C++\Probability\Main.cpp(267,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Probability.vcxproj -> C:\Users\USER\3D Objects\OPENCV C++\Probability\x64\Debug\Probability.exe
